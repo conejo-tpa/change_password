@@ -3,7 +3,7 @@ from samino import Client
 from json import load
 from colorama import Fore
 from pyfiglet import figlet_format
-new_password = "GC5969"
+new_password = "your new password"
 
 accounts = load(open("accounts.json"))
 for account in accounts:
